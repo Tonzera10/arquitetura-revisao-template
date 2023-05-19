@@ -1,0 +1,25 @@
+GET http://localhost:3003/brands
+
+###
+
+POST http://localhost:3003/brands
+Content-Type: application/json
+
+{
+    "id": "0004",
+    "name": "Labenu"
+}
+
+###
+
+PUT http://localhost:3003/brands/000000000
+Content-Type: application/json
+
+{
+    "name": ""
+}
+
+###
+
+DELETE http://localhost:3003/brands/0004
+
